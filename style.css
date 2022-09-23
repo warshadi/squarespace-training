@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    background-color: black;
+}
+nav {
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > .logo > svg{
+    fill:  white;
+}
+
+.nav-link > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    list-style: none;
+}
+
+.nav-link > ul > li > a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+}
+
+.nav-link > ul > li > a:hover {
+    color: red;
+}
+
+.register > ul {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.register > ul > li:last-child > a {
+    padding: 15px 20px;
+    background-color: #DCD2D2;
+    color: black;
+}
+
+/* ==============  header =============== */
+
+header {
+    height: 90vh;
+    background-image: url('https://images.hdqwalls.com/download/retrowave-ap-2560x1600.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-header {
+    width: 50%;
+    color: white;
+    padding-top: 50px;
+}
+
+.text-header > h3 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.text-header > h1 {
+    font-size: 80px;
+}
+
+.text-header > p {
+    width: 58%;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.text-header > a {
+    text-decoration: none;
+    color: black;
+    background-color: #DCD2D2;
+    padding: 20px 25px;
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-container .img-container {
+    width: 60%;
+}
+.header-container .img-container > img {
+    width: 85%;
+}
+
+/* ==============  header =============== */
