@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navContainer {
@@ -118,3 +119,136 @@ header {
 }
 
 /* ==============  header =============== */
+
+/* ==============  web-designs =============== */
+
+
+.web-designs {
+    background-color: #F8F8F8;
+    padding: 40px 0;
+}
+
+.web-designs > h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 55px;
+    width: 400px;
+}
+
+.web-designs > p {
+    width: 510px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.web-designs > ul {
+    list-style: none;
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.web-designs > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+}
+.web-designs > ul > li > a::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: all ease 1s;
+}
+
+.web-designs > ul > li > a:hover::after {
+    width: 100%;
+}
+
+.web-designs > .imgs-container {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.web-designs > .imgs-container img {
+    width: 400px;
+}
+
+/* ==============  web-designs =============== */
+
+/* ==============  Flexible portfolios =============== */
+
+.Flexible {
+    background-color: #69a5a4;
+    padding: 30px 0;
+}
+
+.Flexible > h2 {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.Flexible > p {
+    text-align: center;
+    width: 555px;
+    font-size: 20px;
+    margin: 0px auto 25px;
+}
+.Flexible > a {
+    margin: 0 41%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+}
+
+.Flexible > a::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: all ease 1s;
+}
+
+.Flexible > a:hover::after {
+    width: 100%;
+}
+
+.Flexible > .back-img {
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+    width: 80%;
+    height: 700px;
+    margin: 25px auto;
+    position: relative;
+}
+
+.Flexible > .back-img > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    width: 700px;
+}
+
+
+/* ==============  Flexible portfolios =============== */
